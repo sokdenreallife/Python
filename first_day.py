@@ -90,5 +90,53 @@ print(ceil(3.7))
 print(sqrt(36))
 print(sqrt(16))
 
+'''
+# Display input
+name = input("Enter your name: ")
+age = input("Enter your age: ")
+print("Hello " + name + "! You are " + age)
 
-# 00:48:26
+# Display input calculate MISTAKE
+num1 = input("Enter a number: ")
+num2 = input("Enter another number: ")
+result = num1 + num2
+print(result)
+
+# Display input calculate int
+num1 = input("Enter a number: ")
+num2 = input("Enter another number: ")
+result_two = int(num1) + int(num2)
+print(result_two)
+
+# Display input calcualte float
+num1 = input("Enter a number: ")
+num2 = input("Enter another number: ")
+result_three = float(num1) + float(num2)
+print(result_three)
+
+# Display mad libs game
+color = input("Enter a color: ")
+plural_noun = input("Enter a plural noun: ")
+celebrity = input("Enter a celebrity: ")
+
+print("Roses are " + color)
+print( plural_noun + " are blue")
+print("I love " + celebrity)
+'''
+
+# Display lists
+friends = ["Sok", "Den", "Dang", "Jack\n"]
+print(friends[0])
+print(friends[-1])
+print(friends[1:])
+print(friends[1:3])
+
+# Display list two
+friends_two = ["Sok", "Den", "Dang", "Jack"]
+friends_two[1] = "Coca-cola\n"
+print(friends_two[1])
+
+# Display list function
+luchy_numbers = [2, 4, 6, 10, 15, 18]
+friends_three = ["Sok", "Den", "Dang", "Jack\n"]
+print(friends_three)
