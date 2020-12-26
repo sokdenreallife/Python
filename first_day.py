@@ -137,6 +137,38 @@ friends_two[1] = "Coca-cola\n"
 print(friends_two[1])
 
 # Display list function
-luchy_numbers = [2, 4, 6, 10, 15, 18]
-friends_three = ["Sok", "Den", "Dang", "Jack\n"]
+lucky_numbers = [2, 4, 6, 10, 15, 18]
+friends_three = ["Sok", "Den", "Dang", "Jack", "WWE"]
+"""friends_three.extend(lucky_numbers) # Plust lists and lists"""
+
+"""friends_three.append("Water") # Add name"""
+
+"""friends_three.insert(1, "Mark") # Add name in between"""
+
+"""friends_three.remove("Den") # Remove name"""
+
+"""friends_three.clear() # Remove all name"""
+
+friends_three.pop() # Remove end name
+
 print(friends_three)
+
+# Display count name of lists
+friends_four = ["Sok", "Den", "Dang", "Jack", "Jack", "WWE"]
+print(friends_four.count("Jack"))
+
+# Display sort a --> z
+your_numbers = [12, 32, 12, 3, 5, 34, 20, 18]
+your_numbers.sort()
+print(your_numbers)
+
+friends_five = ["Sok", "Den", "Dang", "Jack", "Jack", "WWE"]
+friends_five.sort()
+print(friends_five)
+
+# Copy list
+my_list = ["Sok", "Den", "Dang", "Jack", "Jack", "WWE"]
+your_list = my_list.copy()
+print(your_list)
+
+# 1:19:00
