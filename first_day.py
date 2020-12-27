@@ -171,4 +171,11 @@ my_list = ["Sok", "Den", "Dang", "Jack", "Jack", "WWE"]
 your_list = my_list.copy()
 print(your_list)
 
-# 1:19:00
+# Tuples e.g. name_one = (1, 3) NOTE: Tuples use () and Lists use []
+coordinates = (4, 5)
+print(coordinates[0])
+print(coordinates[1])
+
+coordinates = (4, 5)
+
+# 1:24:15
