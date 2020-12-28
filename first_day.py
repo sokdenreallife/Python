@@ -178,4 +178,7 @@ print(coordinates[1])
 
 coordinates = (4, 5)
 
-# 1:24:15
+# Functions
+def sayhi():
+    print("Hello User")
+sayhi()
