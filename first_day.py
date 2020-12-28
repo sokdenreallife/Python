@@ -182,3 +182,26 @@ coordinates = (4, 5)
 def sayhi():
     print("Hello User")
 sayhi()
+
+# Functions two
+def say_hi(name):
+    print("Hello " + name)
+
+say_hi("Sok")
+say_hi("Den")
+
+# Display multiple name and age
+def sayhi_two (name, age):
+    print("Hello " + name + " you are " + age)
+
+sayhi_two("Sok", "50")
+sayhi_two("Den", "20")
+
+# Display multiple name and age
+def sayhi_three (name, age):
+    print("Hello " + name + " you are " + str(age)) # Convert to str
+
+sayhi_three("Sok", 220)
+sayhi_three("Den", 110)
+
+# 1:34:13
