@@ -204,7 +204,16 @@ def sayhi_three (name, age):
 sayhi_three("Sok", 220)
 sayhi_three("Den", 110)
 
-# Display
+# Return statement
 def cube(num):
     return num*num*num
 print(cube(3))
+print(cube(4))
+
+# Display return two
+def cube_two(num_two):
+    return num_two*num_two*num_two
+result = cube_two(5)
+print(result)
+
+# 1:40:07
