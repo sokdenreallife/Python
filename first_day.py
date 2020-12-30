@@ -216,4 +216,66 @@ def cube_two(num_two):
 result = cube_two(5)
 print(result)
 
-# 1:40:07
+# If Statement
+is_male = True
+if is_male:
+    print("You are a male")
+
+# If Statement two
+isMale = False
+if isMale:
+    print("You are a male")
+else:
+    print("You are not a male")
+
+# Display or 1
+isMale_two = True
+is_tall = True
+
+if isMale or is_tall:
+    print("You are a male or tall or both")
+else:
+    print("You neither male nor tall")
+
+# Display or 2
+isMale_three = False
+isTall = True
+
+if isMale_three or isTall:
+    print("You are a male or tall or both")
+else:
+    print("You neither male nor tall")
+
+# Display or 3
+isMale_four = False
+isTall_four = False
+
+if isMale_four or isTall_four:
+    print("You are a male or tall or both")
+else:
+    print("You neither male nor tall")
+
+# Display and 1
+isMale_five = True
+isTall_five = True
+
+if isMale_five and isTall_five:
+    print("You are a tall male\n")
+else:
+    print("You are either not male or not tall or both\n")
+
+# Display and 2
+isMale_six = False
+isTall_six = False
+
+if isMale_six and isTall_six:
+    print("You are a tall male\n")
+elif isMale_six and not(isTall_six):
+    print("You are a short male\n")
+elif isMale_six and isTall_six:
+    print("You are not a male but are tall\n")
+else:
+    print("You are not a male and not tall\n")
+
+# 1:54:07
+# If Statement & Comparisons
