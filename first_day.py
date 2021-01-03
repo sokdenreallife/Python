@@ -16,9 +16,9 @@ print("hello\nworld")
 # Display quatation mark
 print("hello\"world")
 
-# Display plus string
+# Variables
 character_name = "Sok Den"
-character_age = "20"
+character_age = "21"
 print("Your name is: " + character_name + " , and your age is: " + character_age)
 
 # Dispaly font lower and upper

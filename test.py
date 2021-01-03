@@ -1,0 +1,40 @@
+# Variables
+character_name = "Den"
+character_age = str(21)
+
+print("There once was a man named " + character_name + ".")
+print("He was " + character_age + " years old.")
+print("He really liked the name " + character_name + ".")
+print("But didn't like being " + character_age +".\n")
+
+# I can also using variables with "," symbol
+characterName = "Sok"
+characterAge = "21"
+
+print("You are so smart", characterName,".")
+print("In this year you have age", characterAge ,"-year-old.\n")
+
+# How I display text lowercase and uppercase
+phrase = "Hello how are you?"
+
+print(phrase.lower()) # It's display lowercase
+print(phrase.upper()) # It's display uppercase
+
+# Strings (display indexs)
+greeting = "Hello"
+
+print(greeting[0]) # Read from left to right start with 0
+print(greeting[-1]) # Read from right to left start with -1
+
+print(len(greeting)) # Count letters
+
+print(greeting.find("llo")) # Find similar letters
+print(greeting.find("b")) # I don't know this problem that is show nagative -1
+
+print(greeting[1:]) # Colon ":" meaning count start from 1 to end of letters
+print(greeting[2:5]) # Colon ":" meaning count start from 2 to 4 of letters
+
+# Example input in python
+nameEnter = input("Please enter your name: ")
+
+print(nameEnter ,"is so SMART!!!")
