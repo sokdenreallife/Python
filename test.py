@@ -47,8 +47,11 @@ num = 10
 num += 100 # +=, -=, /=, *=
 print(num)
 
-++num
-print(num)
+"""
+num_one = 20
+++num_one # Python can not perform, but not show error when RUN program
+print(num_one)
+"""
 
 # Math module has useful math methods
 import math
