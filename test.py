@@ -42,3 +42,16 @@ print( 5 ** 5) # Meaning 5^5 = 3125
 print( 2 + 3 * 5) # Apply multiplication first: order of operations
 print( 25 % 2) # Take remains: returns remainder of 25/2
 print(10 / 3.0)      # int's and doubles
+
+num = 10
+num += 100 # +=, -=, /=, *=
+print(num)
+
+++num
+print(num)
+
+# Math module has useful math methods
+import math
+print( pow(2, 3) )
+print( math.sqrt(144) )
+print( round(2.7) )
