@@ -34,7 +34,11 @@ print(greeting.find("b")) # I don't know this problem that is show nagative -1
 print(greeting[1:]) # Colon ":" meaning count start from 1 to end of letters
 print(greeting[2:5]) # Colon ":" meaning count start from 2 to 4 of letters
 
-# Example input in python
-nameEnter = input("Please enter your name: ")
+print("Enter line\n")
 
-print(nameEnter ,"is so SMART!!!")
+# Math (Integers & Float)
+print( 5 * 5) # Meaning 5 * 5 = 25
+print( 5 ** 5) # Meaning 5^5 = 3125
+print( 2 + 3 * 5) # Apply multiplication first: order of operations
+print( 25 % 2) # Take remains: returns remainder of 25/2
+print(10 / 3.0)      # int's and doubles
