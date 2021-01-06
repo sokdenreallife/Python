@@ -74,3 +74,12 @@ bored_panda = "Cosmopolitan UK is facing harsh backlash and mockery on social me
 number_of_Letters = len(bored_panda) - bored_panda.count(" ")
 
 print(number_of_Letters)
+
+print(bored_panda.lower())
+print(bored_panda.upper())
+
+# How to: Get the size of a set
+room_a = {1, 1, 1, 2, 2, 2, 1, 1, 2, 5, 6, 5, 6, 7}
+print(len(room_a))
+
+# What is variables, string and characters?
