@@ -58,3 +58,19 @@ import math
 print( pow(2, 3) )
 print( math.sqrt(144) )
 print( round(2.7) )
+
+
+# Define three variables at once:
+count = str(0)
+result = str(0)
+total = str(0)
+
+print("count = " + count)
+print("result = " + result)
+print("total = " + total)
+
+# Count letters except spaces
+bored_panda = "Cosmopolitan UK is facing harsh backlash and mockery on social media for its latest issue. More specifically, for suggesting there is nothing unhealthy about being obese, prompting accusations that the magazine is endangering lives amid the pandemic."
+number_of_Letters = len(bored_panda) - bored_panda.count(" ")
+
+print(number_of_Letters)
