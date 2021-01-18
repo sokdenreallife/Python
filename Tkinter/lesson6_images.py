@@ -7,11 +7,11 @@ screen = Tk()
 screen.title("My app")
 
 # Put image icon to app, SUPPORT .ico files
-screen.iconbitmap("D:\Cloud Storage\GitHub\Programming Language\Python\Tkinter\icon.ico")
+screen.iconbitmap("D:\Cloud Storage\GitHub\Programming Language\Python\Tkinter\images\icon.ico")
 
 # Put the background iamge .jpg or .png
-background = ImageTk.PhotoImage(Image.open("background.jpg"))
-my_label = Label(image = background)
+my_img = ImageTk.PhotoImage(Image.open("D:\Cloud Storage\GitHub\Programming Language\Python\Tkinter\images\M1.jpg"))
+my_label = Label(image = my_img)
 my_label.pack()
 
 # Quit program
