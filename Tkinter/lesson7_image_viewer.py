@@ -9,7 +9,7 @@ screen.title("My app")
 # Create function
 def button_back():
     return
-    
+
 def button_back():
     return
 
@@ -29,9 +29,9 @@ my_label = Label(image = my_img1)
 my_label.grid(row = 0, column = 0, columnspan = 3)
 
 # Quit program
-button_back = Button(screen, text = "<<", padx = 50, pady = 10, command = screen.quit)
+button_back = Button(screen, text = "<<", padx = 50, pady = 10, command = button_back)
 button_quit = Button(screen, text = "Quit Button", padx = 100, pady = 10, command = screen.quit)
-button_forword = Button(screen, text = ">>", padx = 50, pady = 10, command = screen.quit)
+button_forword = Button(screen, text = ">>", padx = 50, pady = 10, command = lambda: button_forword)
 
 # Display on screen
 button_back.grid(row = 10, column = 0)
