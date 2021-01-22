@@ -23,5 +23,5 @@ print(number_grid[0][0])
 print(number_grid[0][1])
 
 for rows in number_grid:
-     for cols in rows:
-          print(cols)
+    for cols in rows:
+        print(cols)
