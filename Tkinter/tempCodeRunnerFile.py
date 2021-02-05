@@ -1,1 +1,1 @@
-image
+button_1.grid(row = 3, column = 0)
